@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	port = flag.Int("poer", 8080, "int flag")
+	port = flag.Int("port", 8080, "port")
 	path = flag.String("path", "/", "health check path")
 )
 
